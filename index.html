@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Singh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="nav-logo">Vinay Singh</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-links">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-links">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-links">Projects</a></li>
+            </ul>
+            <div class="theme-switcher">
+                <button id="theme-toggle">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1>Vinay Singh - Frontend Developer<br>- <span class="highlight">Building Modern</span><span id="typing-text"></span><span class="cursor">|</span></h1>
+                    <p class="contact-info">
+                        vinaysinghchahar@gmail.com | +91 9997573221
+                    </p>
+                    <img src="photo/WhatsApp Image 2025-05-11 at 19.34.25_345a35ad.jpg" alt="Vinay Singh" class="profile-pic">
+                    <div class="connect-container">
+                        <a href="https://www.linkedin.com/in/vinay-singh-8829a322a/" class="cta-button" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Third-year B.Tech Computer Science student with a solid foundation in Data Structures & Algorithms, front-end development, and problem-solving. Known for quick adaptability, analytical thinking, and a strong drive to learn and grow. Passionate about leveraging both technical and interpersonal skills to contribute to data-driven decision-making and strategic innovation. A collaborative team player who thrives in dynamic environments and aims to create meaningful impact through technology.</p>
+            </section>
+
+            <section id="experience">
+                <h2>Work Experience</h2>
+                <div class="experience-item">
+                    <h3>SOFTWARE TESTER — <span>NothingTechnology Limited</span></h3>
+                    <p class="experience-date">Nov 2024 – Feb 2025</p>
+                    <ul>
+                        <li>Identified and documented numerous software bugs, enhancing the stability and performance of products.</li>
+                        <li>Contributed to Nothing OS 2.6 by verifying bug fixes and critical feedback.</li>
+                        <li>Supported launch of CMF Phone 3A by conducting thorough QA and test execution.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h3>Tasty Bite</h3>
+                        <p>A responsive recipe platform enabling dynamic browsing and filtering of dishes across devices. Built with HTML, CSS (Flexbox Grid), and JavaScript to deliver smooth, adaptive layouts on desktop and mobile. Deployed on GitHub Pages; implemented dynamic filtering and optimized asset loading to improve performance.</p>
+                        <a href="https://singhvinay1.github.io/FoodWebsite/" class="project-link" target="_blank" rel="noopener noreferrer">View Live Demo</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Job Application Tracker</h3>
+                        <p>Full-stack web application for tracking job applications with role-based access and real-time updates. Developed a MERN stack platform enabling users to manage personal job applications and admins to oversee all entries via a dedicated dashboard. Implemented JWT authentication, protected routes, and role-based access control to ensure secure user operations. Integrated Socket.IO for real-time updates and personalized notifications upon job status changes. Designed a responsive and filterable UI using React and Material-UI, with dashboards tailored to user roles.</p>
+                        <a href="https://symphonious-lokum-773c91.netlify.app" class="project-link" target="_blank" rel="noopener noreferrer">View Live Demo</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Voice Assistant</h3>
+                        <p>AI-driven voice assistant offering real-time command execution via NLP and speech recognition APIs. Integrated speech-to-text and text-to-speech modules, enabling natural interaction with users. Implemented API integrations (e.g., weather, Wikipedia) to respond dynamically to user queries. Built a modular command parser and handler system to facilitate easy addition of new voice commands and ensure testability.</p>
+                        <a href="https://github.com/singhvinay1/VoiceAssistant" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Galgotias University</h3>
+                    <p>Bachelor of Technology in Computer Science and Engineering — CGPA: 8.34/10</p>
+                    <p>2022 – Present | Greater Noida, India</p>
+                </div>
+                <div class="education-item">
+                    <h3>Army Public School</h3>
+                    <p>AISSCE (Class XII), Aggregate: 80%</p>
+                    <p>2019 – 2020 | Mathura, India</p>
+                </div>
+                <div class="education-item">
+                    <h3>Army Public School</h3>
+                    <p>AISSE (Class X), Aggregate: 80%</p>
+                    <p>2017 – 2018 | Mathura, India</p>
+                </div>
+            </section>
+            
+             <section id="skills">
+                <h2>Technical Skills</h2>
+                <div class="leetcode-stats">
+                    <a href="https://leetcode.com/u/VinaySinghChahar/" target="_blank" rel="noopener noreferrer">
+                        <img src="https://leetcode-stats.vercel.app/api?username=VinaySinghChahar&theme=dark" alt="Vinay Singh's LeetCode Stats"/>
+                    </a>
+                </div>
+                 <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Languages</h4>
+                        <ul>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Frameworks</h4>
+                        <ul>
+                            <li>Spring Boot</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>Tkinter</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Databases & Tools</h4>
+                        <ul>
+                            <li>MySQL, PostgreSQL, MongoDB</li>
+                            <li>Git, GitHub, VS Code, IntelliJ, Eclipse</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Competitive Programming</h4>
+                        <p>Solved 300+ problems on LeetCode and GeeksforGeeks</p>
+                    </div>
+                 </div>
+            </section>
+            
+            <section id="certifications">
+                <h2>Certifications & Achievements</h2>
+                <ul>
+                    <li><b>AWS Cloud Virtual Internship (2023):</b> Hands-on with 8 AWS services.</li>
+                    <li><b>Oracle Academy – SQL (2022):</b> 95% in advanced SQL certification.</li>
+                    <li><b>Oracle Java Programming (2022), Cisco Computer Networks (2023):</b> 90%+ in assessments.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
